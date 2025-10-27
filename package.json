@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
-    "start": "node .dist/server/index.mjs",
+    "start": "node ./dist/server/index.mjs",
     "deploy": "npm run build && wrangler deploy"
   },
   "keywords": [],
